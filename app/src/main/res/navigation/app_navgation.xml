@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navgation"
+    app:startDestination="@id/produtoListFragment">
+
+    <fragment
+        android:id="@+id/produtoListFragment"
+        android:name="com.project.at.list.ListFragment"
+        android:label="fragment_produto_list"
+        tools:layout="@layout/fragment_jogador_list" >
+        <action
+            android:id="@+id/action_produtoListFragment_to_recomendacoesFragment"
+            app:destination="@id/recomendacoesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/produtoInsertFragment"
+        android:name="com.project.at.insert.InsertFragment"
+        android:label="fragment_produto_insert"
+        tools:layout="@layout/fragment_jogador_insert" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.project.at.info.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/recomendacoesFragment"
+        android:name="com.project.at.recomendacoesFragment"
+        android:label="fragment_recomendacoes"
+        tools:layout="@layout/fragment_recomendacoes" />
+</navigation>

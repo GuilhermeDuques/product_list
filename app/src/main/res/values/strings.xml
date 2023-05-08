@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Melhores Jogadores Brasileiros</string>
+    <string name="nome_do_jogador">Nome do Jogador</string>
+    <string name="time">Time</string>
+    <string name="_preco">000.0</string>
+    <string name="adicionar_jogador">Adicionar Jogador</string>
+    <string name="nome">Nome</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="google">Pesquisar</string>
+    <string name="r">R$</string>
+</resources>
